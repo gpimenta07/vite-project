@@ -1,39 +1,56 @@
-# 💰 CryptoInfo - Visualizador de Criptomoedas
+# 💰 Crypto Tracker
 
-Projeto desenvolvido com **React + TypeScript + Vite** para listar, buscar e visualizar detalhes de criptomoedas em tempo real utilizando a [CoinCap API](https://docs.coincap.io/). A aplicação exibe os principais dados como preço, volume, valor de mercado e variação em 24h.
+Uma aplicação React + Vite que consome a API da [CoinCap](https://docs.coincap.io/) para listar as principais criptomoedas do mercado, com informações em tempo real sobre preço, volume e capitalização de mercado.
 
-## 🚀 Deploy
-
-Acesse o projeto online aqui:  
-👉 [https://vite-project-opal-gamma.vercel.app/](https://vite-project-opal-gamma.vercel.app/)
+🔗 **Deploy:** [https://vite-project-opal-gamma.vercel.app](https://vite-project-opal-gamma.vercel.app)
 
 ---
 
-## ✨ Funcionalidades
+## 🖼️ Preview
 
-- 🔍 Busca por criptomoeda (ex: bitcoin, ethereum, etc)
-- 📈 Listagem paginada de criptomoedas
-- 💡 Informações detalhadas da moeda selecionada
-- 📊 Preço, Volume, Market Cap e Variação em tempo real
-- 🌐 Link direto para o Explorer da moeda
+![Preview da Home](https://user-images.githubusercontent.com/seu-usuario/home-preview.png)
+<!-- Substitua pelo link real do seu screenshot caso queira -->
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router](https://reactrouter.com/)
 - [CoinCap API](https://docs.coincap.io/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ---
 
-## 📦 Instalação e Uso
+## ✨ Funcionalidades
 
-Clone o repositório:
+- 🔍 Busca por criptomoedas (ex: `bitcoin`, `ethereum`)
+- 📈 Tabela com as 10 principais moedas
+- 🔁 Paginação com botão "Carregar Mais"
+- 💱 Visualização de:
+  - Preço
+  - Valor de mercado
+  - Volume em 24h
+  - Variação percentual
+- 📄 Página de detalhes com informações ampliadas da moeda
+- 🌐 Link para o Explorer oficial da criptomoeda
+
+---
+
+## 🧪 Como rodar localmente
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+# Clone o repositório
+git clone https://github.com/seu-usuario/crypto-tracker.git
+
+# Acesse a pasta do projeto
+cd crypto-tracker
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
