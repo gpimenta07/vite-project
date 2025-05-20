@@ -6,12 +6,6 @@ Uma aplicação React + Vite que consome a API da [CoinCap](https://docs.coincap
 
 ---
 
-## 🖼️ Preview
-
-![Preview da Home](https://user-images.githubusercontent.com/seu-usuario/home-preview.png)
-<!-- Substitua pelo link real do seu screenshot caso queira -->
-
----
 
 ## 🚀 Tecnologias
 
